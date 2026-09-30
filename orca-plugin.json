@@ -3,14 +3,14 @@
   "id": "ipdb-breakpoint",
   "publisher": "orbitant",
   "name": "ipdb Breakpoint",
-  "version": "0.1.1",
-  "description": "Ctrl+Shift+0 copies an ipdb breakpoint (import ipdb;ipdb.set_trace()) to the clipboard, ready to paste into your code.",
+  "version": "0.2.0",
+  "description": "Ctrl+Shift+0 inserts an ipdb breakpoint (import ipdb;ipdb.set_trace()) at the cursor. On macOS it copies and pastes it; elsewhere it copies it to the clipboard.",
   "repository": "https://github.com/albluqmun/orca-ipdb",
   "engines": { "orca": ">=1.4.0" },
   "pluginApi": 1,
   "main": "main.mjs",
   "contributes": {
-    "commands": [{ "id": "ipdb.copy-breakpoint", "title": "ipdb: Copy Breakpoint" }],
+    "commands": [{ "id": "ipdb.copy-breakpoint", "title": "ipdb: Insert Breakpoint" }],
     "keybindings": [{ "command": "ipdb.copy-breakpoint", "key": "Ctrl+Shift+0", "when": "global" }]
   },
   "capabilities": [{ "kind": "notifications:show" }]
