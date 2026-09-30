@@ -1,9 +1,9 @@
 {
   "manifestVersion": 1,
-  "id": "orca-ipdb",
+  "id": "ipdb-breakpoint",
   "publisher": "orbitant",
   "name": "ipdb Breakpoint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ctrl+Shift+0 copies an ipdb breakpoint (import ipdb;ipdb.set_trace()) to the clipboard, ready to paste into your code.",
   "repository": "https://github.com/albluqmun/orca-ipdb",
   "engines": { "orca": ">=1.4.0" },
